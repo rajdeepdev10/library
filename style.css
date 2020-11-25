@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(orangeRed, yellow);
+    color: white;
+}
+
+main{
+  width: 100%;
+  text-align: center;
+}
+
+
+#add-form{
+  display: none;
+}
+
+input{
+  margin: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+td{
+  min-width: 135px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  td {
+    min-width: 0px;
+  }
+}
+
+#open-button{
+    margin: auto;
+}
+#form-container{
+    border: 2px solid red;
+    width: 350px;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+#booklist{
+  margin: auto;
+}
+
+button{
+  margin: 15px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: black;
+}
+
+img{
+  width: 23px;
+  height: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
